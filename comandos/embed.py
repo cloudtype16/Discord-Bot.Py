@@ -4,4 +4,4 @@ info = {
 }
 
 async def run(interaccion, bot):
-    await interaccion.response.send_message('embed!')
+    await interaccion.response.send_message('ebed!')
