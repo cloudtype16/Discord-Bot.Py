@@ -1,6 +1,6 @@
 info = {
     'nombre': 'ping',
-    'descripcion': 'Ping pong!',
+    'descripcion': 'Ping Pong!',
 }
 
 async def run(interaccion, bot):

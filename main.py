@@ -14,12 +14,7 @@ config = json.load(open('config.json'))
 
 token_bot = config['token_bot']
 
-@bot.event
-async def on_ready():
-    print(f'Se a iniciado correctamente {bot.user.name}')
-    await bot.tree.sync()
-        
 manejadores.comandos_slash(bot)
+manejadores.eventos(bot)
 
 bot.run(token_bot)
-
