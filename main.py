@@ -5,8 +5,10 @@ from os import walk
 import sys
 import manejadores 
 
-intents = discord.Intents.default()
-intents.message_content = True
+intents = discord.Intents.default().all()
+# intents.message_content = True
+# intents.members = True
+
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 
