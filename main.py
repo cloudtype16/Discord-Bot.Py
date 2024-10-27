@@ -1,8 +1,6 @@
 import discord
 from discord.ext import commands
 import json
-from os import walk
-import sys
 import manejadores 
 
 intents = discord.Intents.default().all()
