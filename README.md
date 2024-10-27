@@ -1,1 +1,1 @@
-# Python
+# Klk, dejen su follow :)
